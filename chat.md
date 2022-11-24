@@ -17,6 +17,7 @@ step 04: Enetr the license key that you have received for MOC.
 .
 
 **Skillable Lab Setup**
+
 Step 1: Open https://alh.learnondemand.net
 
 Step 2: Sign in with a Microsoft Account (Live ID).  (Students should always login with a Microsoft Account by selecting the Microsoft Account option)
