@@ -9,6 +9,12 @@ Step 03: Click on add course once you are logged into the skillpipe.
 step 04: Enetr the license key that you have received for MOC.
 
 
+.
+.
+.
+.
+.
+.
 
 **Skillable Lab Setup**
 Step 1: Open https://alh.learnondemand.net
