@@ -1,0 +1,137 @@
+PySpark Installation in Azure VM Windows Server Data Center
+-----------------------------------------------------------
+
+
+Install:
+
+1. Python: 3.10
+----------------
+https://www.python.org/downloads/release/python-3100/?ref=blog.min.io
+
+or
+
+https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe
+
+Do Custom Installation
+
+Location: c:\python
+create a 'python' folder in c drive
+
+---------------------------------
+
+
+
+2. Java: 17.0.10
+---------------------------------
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+or
+
+https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.msi
+
+
+---------------------------------
+
+
+
+3. Apache Spark: 3.5.0
+---------------------------------
+https://www.apache.org/dyn/closer.lua/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
+
+# Download winrar: https://www.rarlab.com/rar/winrar-x64-700b4.exe
+
+	1. Create a new directory in c: name "spark"
+	2. Extract download file into spark directory 
+---------------------------------
+
+
+
+----------------------------------
+4. Download and setup winutils.exe
+
+https://github.com/cdarlint/winutils/tree/master/hadoop-3.3.5/bin
+
+download
+- winutils.exe: https://github.com/cdarlint/winutils/blob/master/hadoop-3.3.5/bin/winutils.exe
+- hadoop.dll: https://github.com/cdarlint/winutils/blob/master/hadoop-3.3.5/bin/hadoop.dll
+
+create a new dir winutils in C: and inside it create another dir bin
+move the downloaded files into bin folder
+
+---------------------------------
+
+
+
+
+------------------------------------------------
+5. Edit System "PATH" Environment Variable and add following paths:
+
+C:\python;
+C:\python\Scripts;
+C:\winutils\bin;
+C:\spark\spark-3.5.0-bin-hadoop3\bin;
+C:\Program Files\Java\jdk-17\bin;
+
+
+# Add a new environment variable for SPARK_HOME, JAVA_HOME & HADOOP_HOME
+
+
+SPARK_HOME: C:\spark\spark-3.5.0-bin-hadoop3
+JAVA_HOME: C:\Program Files\Java\jdk-17\bin
+HADOOP_HOME: C:\winutils\bin
+PYSPARK_DRIVER_PYTHON: C:\python\python.exe
+PYSPARK_PYTHON: C:\python\python.exe
+
+
+
+-------------------------------------------------------------------
+
+---------------------------------
+5. Install PySpark
+
+open terminal and run:
+pip install pyspark
+
+---------------------------------
+
+
+6. Git Bash
+---------------------------------
+
+https://git-scm.com/download/win
+
+or
+
+https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
+
+---------------------------------
+
+
+7. Install VS Code
+---------------------------------
+https://code.visualstudio.com/Download
+
+click windows x64
+
+---------------------------------
+
+
+8. Add VS Code extensions from Microsoft
+---------------------------------
+Jupyter
+Python
+
+---------------------------------
+
+
+pip install delta-spark
+pip install requests
+pip install json
+
+
+https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-azure/3.3.6/hadoop-azure-3.3.6.jar
+https://repo1.maven.org/maven2/com/azure/azure-storage-file-datalake/12.10.0/azure-storage-file-datalake-12.10.0.jar
+https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar
+
+https://learn.microsoft.com/en-us/sql/connect/jdbc/download-microsoft-jdbc-driver-for-sql-server?view=sql-server-ver16
+https://go.microsoft.com/fwlink/?linkid=2259203
