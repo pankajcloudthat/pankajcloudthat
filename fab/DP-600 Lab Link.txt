@@ -1,0 +1,62 @@
+Github Lab Link DP-600:
+-----------------------
+
+Lab 01: Create a Microsoft Fabric Lakehouse
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/01-lakehouse.html
+
+
+Lab 02: Analyze data with Apache Spark
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/02-analyze-spark.html
+
+
+
+Lab 03: Use delta tables in Apache Spark
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/03-delta-lake.html
+
+
+Lab 04: Create and use a Dataflow Gen2 in Microsoft Fabric
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/05-dataflows-gen2.html
+
+
+Lab 05: Ingest data with a pipeline
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/04-ingest-pipeline.html
+
+
+Lab 06: Ingest data with Spark and Microsoft Fabric notebooks
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/10-ingest-notebooks.html
+
+
+Lab 07: Organize your Fabric lakehouse using a medallion architecture
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/03b-medallion-lakehouse.html
+
+
+Lab 08: Analyze data in a data warehouse
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/06-data-warehouse.html
+
+
+Lab 09: Load data into a warehouse in Microsoft Fabric
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/06a-data-warehouse-load.html
+
+
+Lab 10: Query a data warehouse in Microsoft Fabric
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/06b-data-warehouse-query.html
+
+
+Lab 11: Monitor a data warehouse in Microsoft Fabric
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/06c-monitor-data-warehouse.html
+
+
+Lab 12: Create a star schema model
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/14-create-a-star-schema-model.html
+
+
+Lab 13: Work with model relationships
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/15-work-with-model-relationships.html
+
+
+Lab 14: Use tools to optimize Power BI performance
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/16-use-tools-to-optimize-power-bi-performance.html
+
+
+Lab 15: Enforce semantic model security
+https://microsoftlearning.github.io/mslearn-fabric/Instructions/Labs/17-enforce-model-security.html

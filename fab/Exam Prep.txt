@@ -1,0 +1,127 @@
+Fabric Exam Prep
+--------------------
+
+
+
+
+
+
+Data Warehouse
+---------------
+Date time function
+EX: DATEPART
+https://learn.microsoft.com/en-us/sql/t-sql/functions/datepart-transact-sql?view=sql-server-ver16
+
+Model Relationship
+https://learn.microsoft.com/en-us/fabric/data-warehouse/data-modeling-defining-relationships
+
+Ranking function
+https://learn.microsoft.com/en-us/sql/t-sql/functions/ranking-functions-transact-sql?view=sql-server-ver16
+
+Fabric Warehouse SQL Granular Permission
+https://learn.microsoft.com/en-us/fabric/data-warehouse/sql-granular-permissions
+
+
+Grant Permission
+https://learn.microsoft.com/en-us/sql/t-sql/statements/grant-transact-sql?view=fabric&preserve-view=true
+
+
+Alter Permission
+https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-table-transact-sql?view=fabric
+
+
+Worksapce permissions
+
+Row Level Security
+https://learn.microsoft.com/en-us/fabric/data-warehouse/row-level-security
+
+
+Clone
+https://learn.microsoft.com/en-us/fabric/data-warehouse/clone-table
+
+
+
+
+Lakehouse
+-----------------------
+
+how to create a delta table using shortcut in fabric lakehouse
+
+https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts
+
+
+
+
+Spark
+----------------
+
+Predict function
+https://github.com/microsoft/fabric-samples/blob/main/docs-samples/data-science/data-science-tutorial/4-predict.ipynb
+
+
+need to remove the files that are no longer used and combine small files into larger files 
+VAccume and optimize
+https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/delta-vacuum
+https://learn.microsoft.com/en-us/fabric/data-engineering/delta-optimization-and-v-order?tabs=sparksql
+
+Display function
+Chart view in the notebook to explore the data manually
+https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-visuals
+
+
+use Spark DataFrames to generate Microsoft Power BI visuals
+https://www.youtube.com/watch?v=ta_0BdXGOpM
+
+
+
+Dataflow
+----------
+
+Power query steps
+Transformation: pivot, unpivot
+Ex: PowerQuery step to identify the maximum values for the numeric columns
+
+data profiling tools
+https://learn.microsoft.com/en-us/power-query/data-profiling-tools
+
+
+
+Power BI
+----------------
+Basic DAX
+https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-quickstart-learn-dax-basics
+
+
+
+how to ensure read-write access to dataste is available by using XMLA endpoint
+
+By default, Premium capacity or Premium Per User semantic model workloads have the 
+XMLA endpoint property setting enabled for read-only. 
+This means applications can only query a semantic model. 
+For applications to perform write operations, 
+the XMLA Endpoint property must be enabled for read-write.
+
+Select Settings > Admin portal.
+In the Admin portal, select Capacity settings > Power BI Premium > capacity name.
+Expand Workloads. In the XMLA Endpoint setting, select Read Write.
+
+https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools
+
+
+
+to save the semantic model to a file
+
+https://www.youtube.com/watch?v=38C_1LcQQ7E
+https://marketplace.visualstudio.com/items?itemName=analysis-services.TMDL
+https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset
+https://learn.microsoft.com/en-us/analysis-services/tmdl/tmdl-overview?view=asallproducts-allversions
+
+
+
+Query folding is NOT occurring
+https://learn.microsoft.com/en-us/power-query/query-folding-basics
+
+
+
+usually takes two minutes to render has been running for 45 minutes 
+DMV

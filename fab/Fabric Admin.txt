@@ -1,0 +1,240 @@
+
+Fabric Roadmap: 
+---------------
+aka.ms/FabricRoadmap
+
+
+Fabric Readiness and Enablement Resources
+https://partner.microsoft.com/en-us/asset/collection/fabric-readiness-and-enablement-resources#/
+
+Fabric-Readiness
+https://github.com/microsoft/Fabric-Readiness?tab=readme-ov-file
+
+
+
+Fabric Architecure
+---------------------
+
+Lakehouse Architecture:
+https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction
+
+
+
+Medallion:
+https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture
+
+
+Lakehouse vs Data Warehouse vs Real-Time Analytics/KQL Database:
+https://blog.fabric.microsoft.com/en-US/blog/lakehouse-vs-data-warehouse-deep-dive-into-use-cases-differences-and-architecture-designs/
+
+
+----------------------------------------------------------------------------------------
+
+
+Fabric Licence
+---------------
+
+Microsoft Fabric Licenses
+https://learn.microsoft.com/en-us/fabric/enterprise/licenses
+
+
+Buy a Microsoft Fabric subscription
+https://learn.microsoft.com/en-us/fabric/enterprise/buy-subscription
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+
+Fabric capacity
+---------------
+
+SKU considerations
+--------------------
+
+Understand your Azure bill on a Fabric capacity
+https://learn.microsoft.com/en-us/fabric/enterprise/azure-billing
+
+
+The Fabric throttling policy
+https://learn.microsoft.com/en-us/fabric/enterprise/throttling
+
+Fabric operations
+https://learn.microsoft.com/en-us/fabric/enterprise/fabric-operations
+
+
+Evaluate and optimize your Microsoft Fabric capacity
+https://learn.microsoft.com/en-us/fabric/enterprise/optimize-capacity
+
+
+
+
+Microsoft Fabric Spark
+----------------------
+
+What is Spark compute in Microsoft Fabric?
+https://learn.microsoft.com/en-us/fabric/data-engineering/spark-compute
+
+Configuring starter pools in Microsoft Fabric
+https://learn.microsoft.com/en-us/fabric/data-engineering/configure-starter-pools
+
+
+Concurrency limits and queueing in Microsoft Fabric Spark
+https://learn.microsoft.com/en-us/fabric/data-engineering/spark-job-concurrency-and-queueing
+
+
+Billing and utilization reporting for Spark in Microsoft Fabric
+https://learn.microsoft.com/en-us/fabric/data-engineering/billing-capacity-management-for-spark
+
+
+Microsoft Fabric Capacity Metrics app
+https://learn.microsoft.com/en-us/fabric/enterprise/metrics-app
+
+
+
+
+
+Fabric data warehousing
+-----------------------
+
+Burstable capacity in Fabric data warehousing
+https://learn.microsoft.com/en-us/fabric/data-warehouse/burstable-capacity
+
+Pause and resume in Fabric data warehousing
+https://learn.microsoft.com/en-us/fabric/data-warehouse/pause-resume
+
+
+Smoothing and throttling in Fabric Data Warehousing
+https://learn.microsoft.com/en-us/fabric/data-warehouse/compute-capacity-smoothing-throttling
+
+
+Workload management
+https://learn.microsoft.com/en-us/fabric/data-warehouse/workload-management
+
+
+Billing and utilization reporting in Synapse Data Warehouse
+https://learn.microsoft.com/en-us/fabric/data-warehouse/usage-reporting
+
+Data Warehouse Utilization Reporting in Fabric Capacity Metrics App
+https://blog.fabric.microsoft.com/en-us/blog/data-warehouse-utilization-reporting-in-fabric-capacity-metrics-app/
+
+
+
+
+
+Data Factory
+-------------
+
+Data Factory pricing in Microsoft Fabric
+https://learn.microsoft.com/en-us/fabric/data-factory/pricing-overview
+
+
+Data pipelines pricing for Data Factory in Microsoft Fabric
+https://learn.microsoft.com/en-us/fabric/data-factory/pricing-pipelines
+
+
+Dataflow Gen2 pricing for Data Factory in Microsoft Fabric
+https://learn.microsoft.com/en-us/fabric/data-factory/pricing-dataflows-gen2
+
+
+Pricing scenario using a data pipeline
+https://learn.microsoft.com/en-us/fabric/data-factory/pricing-scenario-load-1-tb-parquet-to-data-warehouse
+
+Pricing scenario using Dataflow Gen2
+https://learn.microsoft.com/en-us/fabric/data-factory/pricing-scenario-dataflows-gen2-load-2-gb-csv-to-lakehouse-table
+
+
+
+Data Factory Spotlight: Dataflow Gen2
+------------------------------------
+https://blog.fabric.microsoft.com/en-us/blog/data-factory-spotlight-dataflows-gen2/
+
+
+
+Data Pipeline Rest API
+https://blog.fabric.microsoft.com/en-US/blog/fabric-data-factory-data-pipelines-rest-apis-now-available/
+https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-rest-api
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+Fabric Pricing
+--------------
+Important update coming to Power BI Premium licensing
+https://powerbi.microsoft.com/en-us/blog/important-update-coming-to-power-bi-premium-licensing/
+
+Microsoft Fabric pricing
+https://azure.microsoft.com/en-in/pricing/details/microsoft-fabric/
+
+Save costs with Microsoft Fabric Capacity reservations
+https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/fabric-capacity
+
+Fabric Capacities – Everything you need to know about what’s new and what’s coming
+https://blog.fabric.microsoft.com/en-US/blog/fabric-capacities-everything-you-need-to-know-about-whats-new-and-whats-coming/
+
+Billing and utilization reporting in Synapse Data Warehouse
+https://learn.microsoft.com/en-us/fabric/data-warehouse/usage-reporting
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+Migration:
+----------
+
+Migration: Azure Synapse Analytics dedicated SQL pools to Fabric
+https://learn.microsoft.com/en-us/fabric/data-warehouse/migration-synapse-dedicated-sql-pool-warehouse
+
+
+Migrating from Azure Synapse Spark to Fabric
+https://learn.microsoft.com/en-us/fabric/data-engineering/migrate-synapse-overview
+
+Data Factory Migration
+https://learn.microsoft.com/en-us/fabric/data-factory/activity-parity
+
+Microsoft Fabric, explained for existing Synapse users:
+https://blog.fabric.microsoft.com/en-us/blog/microsoft-fabric-explained-for-existing-synapse-users/
+
+
+CI/CD
+-----
+https://support.fabric.microsoft.com/es-ar/blog/fabric-ci-cd-announcements-supporting-new-items-and-much-more?ft=All#:~:text=Continuous%20integration%20and%20continuous%20deployment,a%20robust%20CI%2FCD%20process.
+
+
+What is lifecycle management in Microsoft Fabric?
+https://learn.microsoft.com/en-us/fabric/cicd/cicd-overview
+
+
+Git integration tenant settings
+https://learn.microsoft.com/en-us/fabric/admin/git-integration-admin-settings
+
+
+
+Lakehouse deployment pipelines and git integration (Preview)
+https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-git-deployment-pipelines
+
+Notebook source control and deployment
+https://learn.microsoft.com/en-us/fabric/data-engineering/notebook-source-control-deployment#notebook-in-deployment-pipelines
+
+Create deployment rules
+https://learn.microsoft.com/en-us/fabric/cicd/deployment-pipelines/create-rules
+
+
+Git integration and deployment for data pipelines (Preview)
+https://learn.microsoft.com/en-us/fabric/data-factory/git-integration-deployment-pipelines
+
+
+
+
+
+Fabric Roadmap: aka.ms/FabricRoadmap
+https://learn.microsoft.com/en-us/fabric/release-plan/

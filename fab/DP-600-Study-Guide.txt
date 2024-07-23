@@ -1,0 +1,327 @@
+DP-600 Important URLs for Exam Preparations:
+--------------------------------------------
+
+
+Plan, implement, and manage a solution for data analytics (10–15%)
+==================================================================
+
+
+
+Plan a data analytics environment
+-----------------------------------
+
+Identify requirements for a solution, including components, features, performance, and capacity stock-keeping units (SKUs)
+https://learn.microsoft.com/en-us/fabric/admin/service-admin-portal-capacity-settings
+
+
+Recommend settings in the Fabric admin portal
+https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index#microsoft-fabric
+
+
+Choose a data gateway type
+https://learn.microsoft.com/en-us/fabric/data-factory/how-to-access-on-premises-data
+
+
+Create a custom Power BI report theme
+https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes#customize-report-themes
+
+
+
+
+Implement and manage a data analytics environment
+---------------------------------------------------
+
+Implement workspace and item-level access controls for Fabric items
+https://learn.microsoft.com/en-us/fabric/onelake/get-started-security
+
+
+Implement data sharing for workspaces, warehouses, and lakehouses
+https://learn.microsoft.com/en-us/fabric/data-engineering/workspace-roles-lakehouse
+https://learn.microsoft.com/en-us/fabric/get-started/give-access-workspaces
+https://learn.microsoft.com/en-us/fabric/get-started/roles-workspaces#-workspace-roles
+
+
+Manage sensitivity labels in semantic models and lakehouses
+https://powerbi.microsoft.com/en-us/blog/easily-label-your-data-the-new-sensitivity-bar-for-power-bi-and-fabric/
+https://learn.microsoft.com/en-us/fabric/governance/information-protection
+
+
+
+Configure Fabric-enabled workspace settings
+https://learn.microsoft.com/en-us/fabric/admin/portal-workspace
+
+
+Manage Fabric capacity
+https://blog.fabric.microsoft.com/en-US/blog/fabric-capacities-everything-you-need-to-know-about-whats-new-and-whats-coming/
+https://learn.microsoft.com/en-us/fabric/data-engineering/capacity-settings-management
+
+
+
+
+
+Manage the analytics development lifecycle
+------------------------------------------
+https://learn.microsoft.com/en-us/training/paths/manage-analytics-development-lifecycle/
+
+
+Implement version control for a workspace
+https://learn.microsoft.com/en-us/training/modules/design-power-bi-application-lifecycle-management-strategy/3-recommend-source-control-strategy
+
+
+Create and manage a Power BI Desktop project (.pbip)
+https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview
+
+
+Plan and implement deployment solutions
+https://learn.microsoft.com/en-us/training/modules/power-bi-deployment-pipelines/
+
+
+Perform impact analysis of downstream dependencies from lakehouses, data warehouses, dataflows, and semantic models
+https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-dataset-impact-analysis
+
+
+Deploy and manage semantic models by using the XMLA endpoint
+https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/4-dataset-use-xmla-endpoint/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.manage-analytics-development-lifecycle
+
+
+Create and update reusable assets, including Power BI template (.pbit) files, Power BI data source (.pbids) files, and shared semantic models
+https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/2-create-reusable/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.manage-analytics-development-lifecycle
+
+
+
+
+
+
+
+Prepare and serve data (40–45%)
+===============================
+
+
+Create objects in a lakehouse or warehouse
+------------------------------------------
+
+Ingest data by using a data pipeline, dataflow, or notebook
+https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/
+https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/
+https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/
+
+
+Create and manage shortcuts
+https://learn.microsoft.com/en-us/fabric/onelake/onelake-shortcuts
+https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-shortcuts
+
+Implement file partitioning for analytics workloads in a lakehouse
+https://learn.microsoft.com/en-us/fabric/data-factory/tutorial-lakehouse-partition
+
+
+
+Create views, functions, and stored procedures
+https://learn.microsoft.com/en-us/fabric/data-warehouse/tutorial-transform-data
+https://learn.microsoft.com/en-us/fabric/real-time-analytics/create-functions
+
+
+Enrich data by adding new columns or tables
+https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing
+https://learn.microsoft.com/en-us/fabric/data-warehouse/tables
+
+
+
+
+Copy data
+----------
+
+Choose an appropriate method for copying data from a Fabric data source to a lakehouse or warehouse
+https://learn.microsoft.com/en-us/fabric/data-engineering/load-data-lakehouse
+
+
+Copy data by using a data pipeline, dataflow, or notebook
+https://learn.microsoft.com/en-us/training/modules/use-dataflow-gen-2-fabric/
+https://learn.microsoft.com/en-us/training/modules/ingest-data-with-spark-fabric-notebooks/
+https://learn.microsoft.com/en-us/training/modules/use-data-factory-pipelines-fabric/
+
+
+Add stored procedures, notebooks, and dataflows to a data pipeline
+https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-stored-procedure
+
+
+Schedule data pipelines
+https://learn.microsoft.com/en-us/fabric/data-factory/pipeline-runs#scheduled-data-pipeline-runs
+
+
+Schedule dataflows and notebooks
+https://learn.microsoft.com/en-us/fabric/data-factory/tutorial-dataflows-gen2-pipeline-activity
+
+
+
+
+
+Transform data
+--------------
+
+Implement a data cleansing process
+https://learn.microsoft.com/en-us/training/modules/use-apache-spark-work-files-lakehouse/
+https://learn.microsoft.com/en-us/training/modules/work-delta-lake-tables-fabric/
+
+Implement a star schema for a lakehouse or warehouse, including Type 1 and Type 2 slowly changing dimensions
+https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/
+
+
+Implement bridge tables for a lakehouse or a warehouse
+https://learn.microsoft.com/en-us/training/modules/load-data-into-microsoft-fabric-data-warehouse/
+
+
+Denormalize data
+https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
+
+Aggregate or de-aggregate data
+https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/
+
+
+Merge or join data
+https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/
+
+
+Identify and resolve duplicate data, missing data, or null values
+https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/
+
+
+Convert data types by using SQL or PySpark
+https://learn.microsoft.com/en-us/azure/databricks/getting-started/dataframes-python
+https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-type-conversion-database-engine?view=sql-server-ver16
+
+
+
+
+
+
+
+Optimize performance
+---------------------
+
+Identify and resolve data loading performance bottlenecks in dataflows, notebooks, and SQL queries
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance
+https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/
+
+
+Implement performance improvements in dataflows, notebooks, and SQL queries
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-sources
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-sinks
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-performance-transformations
+https://learn.microsoft.com/en-us/training/modules/monitor-fabric-data-warehouse/
+
+
+Identify and resolve issues with Delta table file sizes
+https://learn.microsoft.com/en-us/azure/databricks/delta/tune-file-size
+
+
+
+
+
+
+
+Implement and manage semantic models (20–25%)
+=============================================
+
+
+Design and build semantic models
+---------------------------------
+
+Choose a storage mode, including Direct Lake
+https://learn.microsoft.com/en-us/training/modules/understand-scalability-power-bi/
+
+
+Identify use cases for DAX Studio and Tabular Editor 2
+https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/4-optimize-data-model-use-best-practice-analyzer/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.work-semantic-models-microsoft-fabric
+
+
+Implement a star schema for a semantic model
+https://learn.microsoft.com/en-us/training/modules/design-model-power-bi/
+
+
+Implement relationships, such as bridge tables and many-to-many relationships
+https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many
+
+
+Write calculations that use DAX variables and functions, such as iterators, table filtering, windowing, and information functions
+https://learn.microsoft.com/en-us/dax/best-practices/dax-variables
+https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/
+
+
+Implement calculation groups, dynamic strings, and field parameters
+https://learn.microsoft.com/en-us/training/modules/create-calculation-groups/
+
+
+Design and build a large format dataset
+https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-large-models
+
+
+Design and build composite models that include aggregations
+https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-composite-models
+
+
+Implement dynamic row-level security and object-level security
+https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.design-build-tabular-models
+https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/3-restrict-access-to-power-bi-model-objects/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.design-build-tabular-models
+
+
+
+
+
+
+Optimize enterprise-scale semantic models
+-----------------------------------------
+
+Implement performance improvements in queries and report visuals
+https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/
+
+
+Improve DAX performance by using DAX Studio
+https://daxstudio.org/docs/features/load-powerbi-perf-data/
+
+
+Optimize a semantic model by using Tabular Editor 2
+https://learn.microsoft.com/en-us/training/modules/use-tools-optimize-power-bi-performance/
+
+
+Implement incremental refresh
+
+https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-overview
+
+
+
+
+
+
+
+Explore and analyze data (20–25%)
+=================================
+
+
+Perform exploratory analytics
+https://learn.microsoft.com/en-us/fabric/data-science/tutorial-data-science-explore-notebook
+
+
+Implement descriptive and diagnostic analytics
+
+Integrate prescriptive and predictive analytics into a visual or report
+https://learn.microsoft.com/en-us/power-bi/connect-data/service-tutorial-build-machine-learning-model
+
+
+Profile data
+
+
+Query data by using SQL
+=======================
+
+Query a lakehouse in Fabric by using SQL queries or the visual query editor
+https://learn.microsoft.com/en-us/training/modules/get-started-data-warehouse/4-query-transform-data/?ns-enrollment-type=learningpath&ns-enrollment-id=learn-wwl.work-with-data-warehouses-using-microsoft-fabric
+https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/2-use-sql-query-editor/?ns-enrollment-type=learningpath&ns-enrollment-id=learn-wwl.work-with-data-warehouses-using-microsoft-fabric
+
+
+Query a warehouse in Fabric by using SQL queries or the visual query editor
+https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/3-explore-visual-query-editor/?ns-enrollment-type=learningpath&ns-enrollment-id=learn-wwl.work-with-data-warehouses-using-microsoft-fabric
+
+
+Connect to and query datasets by using the XMLA endpoint
+https://learn.microsoft.com/en-us/training/modules/create-manage-power-bi-assets/4-dataset-use-xmla-endpoint/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.manage-analytics-development-lifecycle
